@@ -1,0 +1,44 @@
+$date
+	Sun Jul 05 01:01:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module HS_tb $end
+$var wire 1 ! Diff $end
+$var wire 1 " Borr $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$scope module DUT $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 " Borr $end
+$var wire 1 ! Diff $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#5
+1!
+1"
+1$
+#10
+0"
+0$
+1#
+#15
+0!
+1$
+#50

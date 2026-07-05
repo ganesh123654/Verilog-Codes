@@ -1,0 +1,83 @@
+$date
+	Sun Jul 05 00:30:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module FA_tb $end
+$var wire 1 ! Sum $end
+$var wire 1 " Carry $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % C $end
+$scope module dut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % C $end
+$var wire 1 " Carry $end
+$var wire 1 ! Sum $end
+$var wire 1 & w1 $end
+$var wire 1 ' w2 $end
+$var wire 1 ( w3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#2
+0"
+0!
+0'
+0&
+0(
+0%
+0$
+0#
+#4
+1!
+1%
+#6
+1&
+0%
+1$
+#8
+1"
+0!
+1'
+1%
+#10
+0"
+1!
+0'
+0%
+0$
+1#
+#12
+1"
+0!
+1'
+1%
+#14
+0'
+0&
+1(
+0%
+1$
+#16
+1!
+1%
