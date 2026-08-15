@@ -31,5 +31,4 @@ $monitor("Time=%t ,a_in=%b ,b_in=%b ,Less= %b, Great=%b Equal=%b ",$time,a_in,b_
 	a_in = 8'b0001; b_in = 8'b0001; #10;
 
 end
-
 endmodule  
